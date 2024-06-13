@@ -1,0 +1,57 @@
+# Python编译后的文件和缓存文件夹
+__pycache__/         # Python编译后的缓存文件夹
+*.py[cod]            # Python编译后的字节码文件
+*$py.class           # 生成的类文件
+
+# C 扩展
+*.so                 # 共享对象文件
+
+# 分发/打包相关文件
+.Python              # Python环境文件
+env/                 # 虚拟环境文件夹
+venv/                # 虚拟环境文件夹
+ENV/                 # 虚拟环境文件夹
+env.bak/             # 备份虚拟环境文件夹
+venv.bak/            # 备份虚拟环境文件夹
+data/                # 数据文件夹
+venv/                # 虚拟环境文件夹
+test/                # 测试文件夹
+
+# Flask特定文件
+instance/            # Flask实例文件夹
+*.sqlite             # SQLite数据库文件
+
+# 安装日志
+pip-log.txt          # pip安装日志文件
+pip-delete-this-directory.txt # pip删除目录日志文件
+
+# 单元测试/覆盖率报告
+htmlcov/             # 覆盖率报告
+.tox/                # tox环境文件夹
+.nox/                # nox环境文件夹
+.coverage            # 覆盖率报告文件
+.coverage.*          # 覆盖率报告文件
+.cache               # 缓存文件夹
+nosetests.xml        # nosetests生成的XML文件
+coverage.xml         # 覆盖率生成的XML文件
+*.cover              # 覆盖率文件
+*.py,cover           # 覆盖率文件
+.hypothesis/         # hypothesis缓存文件夹
+
+# 翻译文件
+*.mo                 # 编译后的消息对象文件
+*.pot                # 文本对象文件
+
+# Django相关文件
+*.log                # 日志文件
+
+# 本地开发文件
+.vscode/             # VSCode配置文件夹
+.idea/               # PyCharm配置文件夹
+*.sublime-project    # Sublime项目文件
+*.sublime-workspace  # Sublime工作区文件
+
+# 其他杂项文件
+.DS_Store            # macOS系统生成的元数据文件
+*.swp                # Vim临时交换文件
+*~                   # 临时备份文件
